@@ -1,8 +1,8 @@
-package com.aniketjain.weatherapp;
+package com.menoc61.weatherapp;
 
-import static com.aniketjain.weatherapp.location.CityFinder.getCityNameUsingNetwork;
-import static com.aniketjain.weatherapp.location.CityFinder.setLongitudeLatitude;
-import static com.aniketjain.weatherapp.network.InternetConnectivity.isInternetConnected;
+import static com.menoc61.weatherapp.location.CityFinder.getCityNameUsingNetwork;
+import static com.menoc61.weatherapp.location.CityFinder.setLongitudeLatitude;
+import static com.menoc61.weatherapp.network.InternetConnectivity.isInternetConnected;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -29,12 +29,12 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.aniketjain.weatherapp.adapter.DaysAdapter;
-import com.aniketjain.weatherapp.databinding.ActivityHomeBinding;
-import com.aniketjain.weatherapp.location.LocationCord;
-import com.aniketjain.weatherapp.toast.Toaster;
-import com.aniketjain.weatherapp.update.UpdateUI;
-import com.aniketjain.weatherapp.url.URL;
+import com.menoc61.weatherapp.adapter.DaysAdapter;
+import com.menoc61.weatherapp.databinding.ActivityHomeBinding;
+import com.menoc61.weatherapp.location.LocationCord;
+import com.menoc61.weatherapp.toast.Toaster;
+import com.menoc61.weatherapp.update.UpdateUI;
+import com.menoc61.weatherapp.url.URL;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.play.core.appupdate.AppUpdateInfo;

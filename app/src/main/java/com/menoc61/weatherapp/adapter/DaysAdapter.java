@@ -1,4 +1,4 @@
-package com.aniketjain.weatherapp.adapter;
+package com.menoc61.weatherapp.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -29,6 +29,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class DaysAdapter extends RecyclerView.Adapter<DaysAdapter.DayViewHolder> {
+
     private final Context context;
 
     public DaysAdapter(Context context) {
@@ -108,6 +109,7 @@ public class DaysAdapter extends RecyclerView.Adapter<DaysAdapter.DayViewHolder>
     }
 
     static class DayViewHolder extends RecyclerView.ViewHolder {
+
         SpinKitView progress;
         RelativeLayout layout;
         TextView dTime, temp_min, temp_max, pressure, wind, humidity;
